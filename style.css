@@ -1,0 +1,62 @@
+.gradient-background {
+	background: linear-gradient(300deg, #f74780, #fa8fb1, #ffe4ec);
+	background-size: 180% 180%;
+	animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.icono-cuadrado {
+	width: 4rem;
+	height: 4rem;
+	border-radius: 0.75rem;
+}
+#img-perfil {
+	height: 300px;
+	border-radius: 50%;
+}
+.container00{
+	display: flex;
+	display: grid;
+	grid-template-columns: 2fr 1fr 2fr 1fr;
+	grid-template-rows: 1fr;
+	grid-column-start: 3;
+	padding-top: 40px;
+}
+ .perro{
+	display: grid;
+	grid-column-start: 2;
+	border: 40px;
+	align-items: flex-end;
+ }
+ #texto{
+	display: grid;
+	justify-content: center;
+	padding-bottom: 180px;
+	padding-top: 15%;
+	align-items: flex-end;
+ }
+ .container1{
+	display: flex;
+	justify-content:space-evenly;
+ }
+ #testimonios{
+	background: linear-gradient(300deg, #12504c, #5dc1b9, #d5fdfd);
+	background-size: 180% 180%;
+	animation: gradient-animation 18s ease infinite;
+ }
+ .w-100{
+	background: linear-gradient(300deg, #12504c, #5dc1b9, #d5fdfd);
+	background-size: 180% 180%;
+	animation: gradient-animation 18s ease infinite;
+ }
